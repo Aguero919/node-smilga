@@ -6,3 +6,5 @@
 3)  require = function to use modules
 4)  module = info about current module
 5)  process = info about env where the program is being executed
+
+6)  "nodemon" = is a package or module that watches for changes in code-file and starts the file for us.

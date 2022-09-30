@@ -1,0 +1,2 @@
+This is wrote after converting readFile and writefile into promises using 
+        ".promises. Hello this is first text file. Hello this is second text file.
