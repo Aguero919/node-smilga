@@ -11,7 +11,7 @@ const { createReadStream } = require("fs");
 const stream = createReadStream("./content/big.txt", {highWaterMark: 20000});  // pull data from location
 
 // the event here is "data"
-stream.on("data", (result) => {
+stream.on("data", (result) => {  // on getting the "data" invoke the callback
     console.log(result);
 });
 stream.on("error", err => console.log(err) )  //  "error" is the event
